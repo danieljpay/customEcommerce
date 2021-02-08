@@ -1,8 +1,8 @@
 import { FC, useState, useEffect } from 'react'
 import Link from 'next/link'
 import s from './Navbar.module.css'
-import Container from '../ui/Container'
-import Searchbar from '../common/Searchbar'
+import Container from '../../ui/Container'
+import Searchbar from '../Searchbar'
 // import UserNav
 import cn from 'classnames'
 import throttle from 'lodash.throttle'
