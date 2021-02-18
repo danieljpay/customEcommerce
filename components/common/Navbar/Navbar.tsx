@@ -3,7 +3,7 @@ import Link from 'next/link'
 import s from './Navbar.module.css'
 import Container from '../../ui/Container'
 import Searchbar from '../Searchbar'
-// import UserNav
+import UserNav from '../UserNav'
 import cn from 'classnames'
 import throttle from 'lodash.throttle'
 
@@ -52,8 +52,7 @@ const Navbar: FC = () => {
           </div>
 
           <div className="flex justify-end flex-1 space-x-8">
-            {/* <UserNav /> */}
-            'Aquí va el usernav'
+            <UserNav /> 
           </div>
         </div>
 

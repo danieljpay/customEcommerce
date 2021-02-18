@@ -9,8 +9,12 @@
   },
   "dependencies": {
     "@tailwindcss/ui": "^0.6.2",
+    "@vercel/fetch": "^6.1.0",
     "autoprefixer": "^10.2.4",
+    "body-scroll-lock": "^3.1.5",
     "classnames": "^2.2.6",
+    "cookie": "^0.4.1",
+    "js-cookie": "^2.2.1",
     "lodash.debounce": "^4.0.8",
     "lodash.random": "^3.2.0",
     "lodash.throttle": "^4.1.1",
@@ -21,6 +25,7 @@
     "postcss-nesting": "^7.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "swr": "^0.4.0",
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
