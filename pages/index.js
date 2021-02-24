@@ -1,8 +1,7 @@
-import Navbar from '../components/common/Navbar'
 import Head from '../components/common/Head'
-import I18nWidget from '../components/common/I18nWidget'
+import Layout from '../components/common/Layout'
 import HomeAllProductsGrid from '../components/common/HomeAllProductsGrid'
-import Footer from '../components/common/Footer'
+import { ManagedUIContext } from '../components/ui/context'
 
 export async function getStaticProps() {
   const categories = [
@@ -81,14 +80,15 @@ export default function Home({
   return (
     <div>
       <Head />
-      <Navbar />
-      <I18nWidget />
-      <HomeAllProductsGrid 
-        categories={categories}
-        brands={brands}
-        newestProducts={newestProducts}
-      />
-      <Footer />
+      <ManagedUIContext>
+        <Layout>
+        <HomeAllProductsGrid 
+          categories={categories}
+          brands={brands}
+          newestProducts={newestProducts}
+        />
+        </Layout>
+      </ManagedUIContext>
     </div>
   )
 }
