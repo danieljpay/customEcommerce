@@ -2,6 +2,7 @@ import Navbar from '../components/common/Navbar'
 import Head from '../components/common/Head'
 import I18nWidget from '../components/common/I18nWidget'
 import HomeAllProductsGrid from '../components/common/HomeAllProductsGrid'
+import Footer from '../components/common/Footer'
 
 export async function getStaticProps() {
   const categories = [
@@ -87,6 +88,7 @@ export default function Home({
         brands={brands}
         newestProducts={newestProducts}
       />
+      <Footer />
     </div>
   )
 }
