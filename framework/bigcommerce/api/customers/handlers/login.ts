@@ -1,5 +1,5 @@
 import { FetcherError } from '../../../../commerce/utils/errors'
-import login from '../../../api/operations/login'
+import login from '../../operations/login'
 import type { LoginHandlers } from '../login'
 
 const invalidCredentials = /invalid credentials/i

@@ -1,5 +1,5 @@
 import type { NextApiHandler, NextApiRequest, NextApiResponse } from 'next'
-// import { BigcommerceConfig, getConfig } from '..'
+import { BigcommerceConfig, getConfig } from '..'
 
 export type BigcommerceApiHandler<
   T = any,
@@ -8,7 +8,7 @@ export type BigcommerceApiHandler<
 > = (
   req: NextApiRequest,
   res: NextApiResponse<BigcommerceApiResponse<T>>,
-  config: any,
+  config: BigcommerceConfig,
   handlers: H,
   // Custom configs that may be used by a particular handler
   options: Options
@@ -17,7 +17,7 @@ export type BigcommerceApiHandler<
 export type BigcommerceHandler<T = any, Body = null> = (options: {
   req: NextApiRequest
   res: NextApiResponse<BigcommerceApiResponse<T>>
-  config: any
+  config: BigcommerceConfig
   body: Body
 }) => void | Promise<void>
 
@@ -52,7 +52,7 @@ export default function createApiHandler<
     const opts = { ...defaultOptions, ...options }
 
     return function apiHandler(req, res) {
-      return handler(req, res, {text: 'probando'}, ops, opts)
+      return handler(req, res, getConfig(config), ops, opts)
     }
   }
 }
