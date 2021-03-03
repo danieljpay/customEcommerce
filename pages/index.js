@@ -53,7 +53,7 @@ export async function getStaticProps() {
         prices: {
           price: {
             currencyCode: 'MXN',
-            value: 50,
+            value: 60,
           }
         },
         name: 'Snapback trasero de malla',
@@ -73,7 +73,7 @@ export async function getStaticProps() {
         },
         prices: {
           price: {
-            value: 250,
+            value: 150,
             currencyCode: 'MXN'
           }
         },
@@ -94,14 +94,77 @@ export async function getStaticProps() {
         },
         prices: {
           price: {
-            value: 300,
+            value: 210,
             currencyCode: 'MXN'
           }
         },
         name: 'Forro polar con ribete de color',
         path: '/piped-fleece-jacket/'
       }
-    }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/130/437/15_T-Shirt_Mockup_1__98355.1603747312.1280.1280__55650.1611759828.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 120,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Camiseta de manga corta unisex',
+        path: '/short-sleeve-unisex-t-shirt/'
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/129/435/mockup-5197eac5__60260__14012.1611759828.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 180,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Camiseta manga larga unisex',
+        path: '/unisex-long-sleeve-tee/'
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/127/433/mockup-5dd35f7a__97377__40936.1611759828.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 90,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Camiseta reciclada unisex',
+        path: '/unisex-recycled-t-shirt/'
+      }
+    },
   ]
   return {
     props: {
