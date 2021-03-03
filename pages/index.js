@@ -52,7 +52,7 @@ export async function getStaticProps() {
         },
         prices: {
           retailPrice: {
-            value: '50 baros'
+            value: '50 pesos'
           },
           price: {
             value: 10,
