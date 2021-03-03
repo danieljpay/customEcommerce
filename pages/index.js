@@ -51,15 +51,55 @@ export async function getStaticProps() {
           ]
         },
         prices: {
-          retailPrice: {
-            value: '50 baros'
-          },
           price: {
-            value: 10,
+            currencyCode: 'MXN',
+            value: 50,
+          }
+        },
+        name: 'Snapback trasero de malla',
+        path: '/mesh-back-snapback/'
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/132/448/mockup-9a5bb91f__43139__73445.1611759829.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 250,
             currencyCode: 'MXN'
           }
         },
-        path: '/pathNewestProducts'
+        name: 'Camisa de manga larga',
+        path: '/mens-long-sleeve-shirt/'
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/131/434/mockup-249c43c7__53383__22200.1611759828.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 300,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Forro polar con ribete de color',
+        path: '/piped-fleece-jacket/'
       }
     }
   ]
