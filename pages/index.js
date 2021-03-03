@@ -228,6 +228,69 @@ export async function getStaticProps() {
         path: '/unisex-joggers/'
       }
     },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/123/418/mockup-d4159f04__53247__43252.1611759827.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 220,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Joggers de Next.js',
+        path: '/womens-joggers/'
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/122/415/mockup-9c5e3634__60853__54408.1611759827.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 220,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Pantalón de chándal ajustado unisex',
+        path: '/unisex-skinny-joggers/'
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/121/400/mockup-a0dc2330__62146__63216.1611759826.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 220,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Camiseta de manga corta unisex',
+        path: '/next-js-short-sleeve-unisex-t-shirt/'
+      }
+    },
   ]
   return {
     props: {
