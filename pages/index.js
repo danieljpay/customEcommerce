@@ -220,7 +220,7 @@ export async function getStaticProps() {
         },
         prices: {
           price: {
-            value: 160,
+            value: 220,
             currencyCode: 'MXN'
           }
         },
