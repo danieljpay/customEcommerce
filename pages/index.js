@@ -165,6 +165,69 @@ export async function getStaticProps() {
         path: '/unisex-recycled-t-shirt/'
       }
     },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/126/422/mockup-8ee910d1__57199__59375.1611759828.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 90,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Sudadera con capucha de felpa unisex',
+        path: '/unisex-fleece-hoodie/'
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/125/420/mockup-6de419a0__16020__13044.1611759827.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 160,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Vestido camiseta de algodón orgánico',
+        path: '/organic-cotton-t-shirt-dress/'
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/124/416/mockup-9fc4c1cf__88683__37613.1611759827.png'
+              }
+            }
+          ]
+        },
+        prices: {
+          price: {
+            value: 160,
+            currencyCode: 'MXN'
+          }
+        },
+        name: 'Pantalón deportivo unisex tipo jogger',
+        path: '/unisex-joggers/'
+      }
+    },
   ]
   return {
     props: {
