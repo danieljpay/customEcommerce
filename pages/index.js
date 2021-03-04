@@ -4,6 +4,92 @@ import HomeAllProductsGrid from '../components/common/HomeAllProductsGrid'
 import { ManagedUIContext } from '../components/ui/context'
 
 export async function getStaticProps() {
+  const bestSelling = [
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/395/Men-Jacket-Front-Black__15466__46409.1611759826.png'
+              }
+            }
+          ]
+        },
+        name: 'Chaqueta de invierno',
+        path: '/matte-black-magic-mug/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 450
+          }
+        }
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/130/437/15_T-Shirt_Mockup_1__98355.1603747312.1280.1280__55650.1611759828.png'
+              }
+            }
+          ]
+        },
+        name: 'Camiseta de manga corta unisex',
+        path: '/short-sleeve-unisex-t-shirt/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 130
+          }
+        }
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/129/435/mockup-5197eac5__60260__14012.1611759828.png'
+              }
+            }
+          ]
+        },
+        name: 'Camiseta manga larga unisex',
+        path: '/unisex-long-sleeve-tee/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 160
+          }
+        }
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/127/433/mockup-5dd35f7a__97377__40936.1611759828.png'
+              }
+            }
+          ]
+        },
+        name: 'Camiseta reciclada unisex',
+        path: '/unisex-recycled-t-shirt/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 90
+          }
+        }
+      }
+    },
+  ]
   const categories = [
     {
       path: '/path',
@@ -294,6 +380,7 @@ export async function getStaticProps() {
   ]
   return {
     props: {
+      bestSelling,
       categories,
       brands,
       newestProducts
@@ -302,6 +389,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({
+  bestSelling,
   categories,
   brands,
   newestProducts
