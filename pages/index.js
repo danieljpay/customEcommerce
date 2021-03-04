@@ -149,6 +149,136 @@ export async function getStaticProps() {
       name: 'Tommy'
     }
   ]
+
+  const featured = [
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/395/Men-Jacket-Front-Black__15466__46409.1611759826.png'
+              }
+            }
+          ]
+        },
+        name: 'Chaqueta de invierno',
+        path: '/matte-black-magic-mug/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 220,
+          }
+        }
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/116/396/Men-TShirt-Black-Front__70046__04554.1611759826.png'
+              }
+            }
+          ]
+        },
+        name: 'Camiseta',
+        path: '/jacket/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 130,
+          }
+        }
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/131/434/mockup-249c43c7__53383__22200.1611759828.png'
+              }
+            }
+          ]
+        },
+        name: 'Forro polar con ribete de color',
+        path: '/piped-fleece-jacket/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 260,
+          }
+        }
+      }
+    }, 
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/132/446/mockup-ae9a83b0__49881__31256.1611759829.png'
+              }
+            }
+          ]
+        },
+        name: 'Camisa de manga larga',
+        path: '/mens-long-sleeve-shirt/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 170,
+          }
+        }
+      }
+    }, 
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/447/Hat-front-black__34181__31769.1611759829.png'
+              }
+            }
+          ]
+        },
+        name: 'Snapback trasero de malla',
+        path: '/mesh-back-snapback/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 60,
+          }
+        }
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/447/Hat-front-black__34181__31769.1611759829.png'
+              }
+            }
+          ]
+        },
+        name: 'Snapback trasero de malla',
+        path: '/mesh-back-snapback/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 60,
+          }
+        }
+      }
+    },
+  ]
+
   const brands = [
     {
       node: {
