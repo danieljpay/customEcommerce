@@ -2,7 +2,7 @@ import Head from '../components/common/Head'
 import Layout from '../components/common/Layout'
 import HomeAllProductsGrid from '../components/common/HomeAllProductsGrid'
 import { ManagedUIContext } from '../components/ui/context'
-import { Marquee } from '../components/ui'
+import { Grid, Marquee } from '../components/ui'
 import { ProductCard } from '../components/product/'
 
 export async function getStaticProps() {
@@ -555,6 +555,7 @@ export async function getStaticProps() {
   ]
   return {
     props: {
+      featured,
       bestSelling,
       categories,
       brands,
@@ -564,6 +565,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({
+  featured,
   bestSelling,
   categories,
   brands,
@@ -574,6 +576,18 @@ export default function Home({
       <Head />
       <ManagedUIContext>
         <Layout>
+          <Grid>
+            {featured.slice(0, 3).map(({ node }, i) => (
+              <ProductCard
+                key={node.path}
+                product={node}
+                imgWidth={i === 0 ? 1080 : 540}
+                imgHeight={i === 0 ? 1080 : 540}
+                imgPriority
+                imgLoading="eager"
+              />
+            ))}
+          </Grid>
           <Marquee variant="secondary">
             {bestSelling.slice(3, 6).map(({ node }) => (
               <ProductCard
