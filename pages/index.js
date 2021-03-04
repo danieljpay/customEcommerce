@@ -50,14 +50,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Snapback trasero de malla',
+        path: '/mesh-back-snapback/',
         prices: {
           price: {
             currencyCode: 'MXN',
             value: 60,
           }
-        },
-        name: 'Snapback trasero de malla',
-        path: '/mesh-back-snapback/'
+        }
       }
     },
     {
@@ -71,14 +71,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Camisa de manga larga',
+        path: '/mens-long-sleeve-shirt/',
         prices: {
           price: {
             value: 150,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Camisa de manga larga',
-        path: '/mens-long-sleeve-shirt/'
+        }
       }
     },
     {
@@ -92,14 +92,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Forro polar con ribete de color',
+        path: '/piped-fleece-jacket/',
         prices: {
           price: {
             value: 210,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Forro polar con ribete de color',
-        path: '/piped-fleece-jacket/'
+        }
       }
     },
     {
@@ -113,14 +113,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Camiseta de manga corta unisex',
+        path: '/short-sleeve-unisex-t-shirt/',
         prices: {
           price: {
             value: 120,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Camiseta de manga corta unisex',
-        path: '/short-sleeve-unisex-t-shirt/'
+        }
       }
     },
     {
@@ -134,14 +134,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Camiseta manga larga unisex',
+        path: '/unisex-long-sleeve-tee/',
         prices: {
           price: {
             value: 180,
             currencyCode: 'MXN'
           }
         },
-        name: 'Camiseta manga larga unisex',
-        path: '/unisex-long-sleeve-tee/'
       }
     },
     {
@@ -155,14 +155,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Camiseta reciclada unisex',
+        path: '/unisex-recycled-t-shirt/',
         prices: {
           price: {
             value: 90,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Camiseta reciclada unisex',
-        path: '/unisex-recycled-t-shirt/'
+        }
       }
     },
     {
@@ -176,14 +176,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Sudadera con capucha de felpa unisex',
+        path: '/unisex-fleece-hoodie/',
         prices: {
           price: {
             value: 90,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Sudadera con capucha de felpa unisex',
-        path: '/unisex-fleece-hoodie/'
+        }
       }
     },
     {
@@ -197,14 +197,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Vestido camiseta de algodón orgánico',
+        path: '/organic-cotton-t-shirt-dress/',
         prices: {
           price: {
             value: 160,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Vestido camiseta de algodón orgánico',
-        path: '/organic-cotton-t-shirt-dress/'
+        }
       }
     },
     {
@@ -218,14 +218,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Pantalón deportivo unisex tipo jogger',
+        path: '/unisex-joggers/',
         prices: {
           price: {
             value: 220,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Pantalón deportivo unisex tipo jogger',
-        path: '/unisex-joggers/'
+        }
       }
     },
     {
@@ -239,14 +239,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Joggers de Next.js',
+        path: '/womens-joggers/',
         prices: {
           price: {
             value: 220,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Joggers de Next.js',
-        path: '/womens-joggers/'
+        }
       }
     },
     {
@@ -260,14 +260,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Pantalón de chándal ajustado unisex',
+        path: '/unisex-skinny-joggers/',
         prices: {
           price: {
             value: 220,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Pantalón de chándal ajustado unisex',
-        path: '/unisex-skinny-joggers/'
+        }
       }
     },
     {
@@ -281,14 +281,14 @@ export async function getStaticProps() {
             }
           ]
         },
+        name: 'Camiseta de manga corta unisex',
+        path: '/next-js-short-sleeve-unisex-t-shirt/',
         prices: {
           price: {
             value: 220,
             currencyCode: 'MXN'
           }
-        },
-        name: 'Camiseta de manga corta unisex',
-        path: '/next-js-short-sleeve-unisex-t-shirt/'
+        }
       }
     },
   ]
