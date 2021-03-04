@@ -2,6 +2,8 @@ import Head from '../components/common/Head'
 import Layout from '../components/common/Layout'
 import HomeAllProductsGrid from '../components/common/HomeAllProductsGrid'
 import { ManagedUIContext } from '../components/ui/context'
+import { Marquee } from '../components/ui'
+import { ProductCard } from '../components/product/'
 
 export async function getStaticProps() {
   const bestSelling = [
@@ -89,7 +91,50 @@ export async function getStaticProps() {
         }
       }
     },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/126/422/mockup-8ee910d1__57199__59375.1611759828.png'
+              }
+            }
+          ]
+        },
+        name: 'Sudadera con capucha de felpa unisex',
+        path: '/unisex-fleece-hoodie/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 260
+          }
+        }
+      }
+    },
+    {
+      node: {
+        images: {
+          edges: [
+            {
+              node: {
+                urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/125/420/mockup-6de419a0__16020__13044.1611759827.png'
+              }
+            }
+          ]
+        },
+        name: 'Vestido camiseta de algodón orgánico',
+        path: '/organic-cotton-t-shirt-dress/',
+        prices: {
+          price: {
+            currencyCode: 'MXN',
+            value: 130
+          }
+        }
+      }
+    },
   ]
+
   const categories = [
     {
       path: '/path',
@@ -399,11 +444,35 @@ export default function Home({
       <Head />
       <ManagedUIContext>
         <Layout>
-        <HomeAllProductsGrid 
-          categories={categories}
-          brands={brands}
-          newestProducts={newestProducts}
-        />
+          <Marquee variant="secondary">
+            {bestSelling.slice(3, 6).map(({ node }) => (
+              <ProductCard
+                key={node.path}
+                product={node}
+                variant="slim"
+                imgWidth={320}
+                imgHeight={320}
+                imgLayout="fixed"
+              />
+            ))}
+          </Marquee>
+          <Marquee>
+            {bestSelling.slice(0, 3).map(({ node }) => (
+              <ProductCard
+                key={node.path}
+                product={node}
+                variant="slim"
+                imgWidth={320}
+                imgHeight={320}
+                imgLayout="fixed"
+              />
+            ))}
+          </Marquee>
+          <HomeAllProductsGrid 
+            categories={categories}
+            brands={brands}
+            newestProducts={newestProducts}
+          />
         </Layout>
       </ManagedUIContext>
     </div>
