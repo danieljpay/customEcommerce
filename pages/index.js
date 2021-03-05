@@ -25,6 +25,17 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 450
           }
+        },
+        //las variantes son necesarias para que el componente wishlist funcione correctamente
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 145
+              }
+            }
+          ]
         }
       }
     },
@@ -46,6 +57,46 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 130
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 188
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 193
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 200
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 205
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 209
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 212
+              }
+            }
+          ]
         }
       }
     },
@@ -67,6 +118,100 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 160
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/102_source_1611759829.png"
+                },
+                entityId: 197
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/118_source_1611759829.png"
+                },
+                entityId: 214
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/119_source_1611759829.png"
+                },
+                entityId: 215
+              }
+            },
+            {
+              node: {
+                defaultImage: { 
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/122_source_1611759829.png"
+                },
+                entityId: 218
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/123_source_1611759829.png"
+                },
+                entityId: 219
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/125_source_1611759829.png"
+                },
+                entityId: 221
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/127_source_1611759829.png"
+                },
+                entityId: 223
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/128_source_1611759829.png"
+                },
+                entityId: 224
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/130_source_1611759830.png"
+                },
+                entityId: 226
+              }
+            }
+          ]
         }
       }
     },
@@ -88,6 +233,40 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 90
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                identityId: 195
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 199
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 203
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 206
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 210
+              }
+            }
+          ]
         }
       }
     },
@@ -109,6 +288,46 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 260
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 150
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 158
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 165
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 171
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 175
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 180
+              }
+            }
+          ]
         }
       }
     },
@@ -130,6 +349,100 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 130
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/72_source_1611759828.png"
+                },
+                entityId: 163
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/82_source_1611759828.png"
+                },
+                entityId: 173
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/88_source_1611759828.png"
+                },
+                entityId: 179
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/90_source_1611759828.png"
+                },
+                entityId: 181
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/92_source_1611759828.png"
+                },
+                entityId: 184
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/94_source_1611759828.png"
+                },
+                entityId: 187
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/101_source_1611759829.png"
+                },
+                entityId: 196
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/106_source_1611759829.png"
+                },
+                entityId: 201
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/112_source_1611759829.png"
+                },
+                entityId: 208
+              }
+            }
+          ]
         }
       }
     },
@@ -169,6 +482,46 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 220,
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 145
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 151
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 157
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 161
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 166
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 169
+              }
+            }
+          ]
         }
       }
     },
@@ -190,6 +543,70 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 130,
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 101
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 105
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 108
+              }
+            },
+            {
+              node: {
+                defaultImage: null, 
+                entityId: 112
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 118
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 124
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 126
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 127
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 129
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 131
+              }
+            }
+          ]
         }
       }
     },
@@ -211,6 +628,40 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 260,
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defautlImage: null,
+                entityId: 186
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 191
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 194
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 198
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 202
+              }
+            }
+          ]
         }
       }
     }, 
@@ -232,6 +683,110 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 170,
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/132_source_1611759830.png"
+                },
+                entityId: 229
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/134_source_1611759830.png"
+                },
+                entityId: 231
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/136_source_1611759830.png"
+                },
+                entityId: 234
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/138_source_1611759830.png"
+                },
+                entityId: 236
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/140_source_1611759830.png"
+                },
+                entityId: 238
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/141_source_1611759830.png"
+                },
+                entityId: 239
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/143_source_1611759830.png"
+                },
+                entityId: 241
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/144_source_1611759830.png"
+                },
+                entityId: 242
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/146_source_1611759830.png"
+                },
+                entityId: 244
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/147_source_1611759830.png"
+                },
+                entityId: 245
+              }
+            }
+          ]
         }
       }
     }, 
@@ -253,6 +808,16 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 60,
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 233
+              }
+            }
+          ]
         }
       }
     },
@@ -274,6 +839,16 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 60,
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 233
+              }
+            }
+          ]
         }
       }
     },
@@ -318,6 +893,16 @@ export async function getStaticProps() {
             currencyCode: 'MXN',
             value: 60,
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 233
+              }
+            }
+          ]
         }
       }
     },
@@ -339,6 +924,110 @@ export async function getStaticProps() {
             value: 150,
             currencyCode: 'MXN'
           }
+        }, 
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/132_source_1611759830.png"
+                },
+                entityId: 229
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/134_source_1611759830.png"
+                },
+                entityId: 231
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/136_source_1611759830.png"
+                },
+                entityId: 234
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/138_source_1611759830.png"
+                },
+                entityId: 236
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/140_source_1611759830.png"
+                },
+                entityId: 238
+              },
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/141_source_1611759830.png"
+                },
+                entityId: 239
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/143_source_1611759830.png"
+                },
+                entityId: 241
+              } 
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/144_source_1611759830.png"
+                },
+                entityId: 242
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/146_source_1611759830.png"
+                },
+                entityId: 244
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/147_source_1611759830.png"
+                },
+                entityId: 245
+              }
+            }
+          ]
         }
       }
     },
@@ -360,6 +1049,40 @@ export async function getStaticProps() {
             value: 210,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 186
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 191
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 194
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 198
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 202
+              }
+            }
+          ]
         }
       }
     },
@@ -381,6 +1104,46 @@ export async function getStaticProps() {
             value: 120,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 188
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 193
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 200
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 205
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 209
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 212
+              }
+            }
+          ]
         }
       }
     },
@@ -403,6 +1166,100 @@ export async function getStaticProps() {
             currencyCode: 'MXN'
           }
         },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/102_source_1611759829.png"
+                },
+                entityId: 197
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/118_source_1611759829.png"
+                },
+                entityId: 214
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/119_source_1611759829.png"
+                },
+                entityId: 215
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/122_source_1611759829.png"
+                },
+                entityId: 218
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/123_source_1611759829.png"
+                },
+                entityId: 219
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/125_source_1611759829.png"
+                },
+                entityId: 221
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/127_source_1611759829.png"
+                },
+                entityId: 223
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/128_source_1611759829.png"
+                },
+                entityId: 224
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/130_source_1611759830.png"
+                },
+                entityId: 226
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -423,6 +1280,40 @@ export async function getStaticProps() {
             value: 90,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 195
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 199
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 203
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 206
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 210
+              }
+            }
+          ]
         }
       }
     },
@@ -444,6 +1335,46 @@ export async function getStaticProps() {
             value: 90,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                entityId: 150
+              }
+            },
+            {
+              node: {
+                defaultImage: null, 
+                entityId: 158
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 165
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 171
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 175
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 180
+              }
+            }
+          ]
         }
       }
     },
@@ -465,6 +1396,99 @@ export async function getStaticProps() {
             value: 160,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/72_source_1611759828.png"
+                },
+                entityId: 163
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/82_source_1611759828.png" 
+                },
+                entityId: 173
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/88_source_1611759828.png"
+                },
+                entityId: 179
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/90_source_1611759828.png"
+                },
+                entityId: 181
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/92_source_1611759828.png"
+                },
+                entityId: 184
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/94_source_1611759828.png"
+                },
+                entityId: 187
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/101_source_1611759829.png"
+                },
+                entityId: 196
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/106_source_1611759829.png" 
+                },
+                entityId: 201
+              }
+            }, {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/112_source_1611759829.png"
+                },
+                entityId: 208
+              }
+            }
+          ]
         }
       }
     },
@@ -486,6 +1510,40 @@ export async function getStaticProps() {
             value: 220,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                identityId: 142
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 148
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 153
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 159
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 168
+              }
+            }
+          ]
         }
       }
     },
@@ -507,6 +1565,52 @@ export async function getStaticProps() {
             value: 220,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: null,
+                identityId: 143
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 146
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 149
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 155
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 160
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 167
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                identityId: 172
+              }
+            }
+          ]
         }
       }
     },
@@ -528,6 +1632,74 @@ export async function getStaticProps() {
             value: 220,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/52_source_1611759828.png"
+                },
+                entityId: 140
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/56_source_1611759828.png"
+                },
+                identityId: 147
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/64_source_1611759828.png"
+                },
+                entityId: 154
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/73_source_1611759828.png"
+                },
+                entityId: 164
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 170
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 174
+              }
+            },
+            {
+              node: {
+                defaultImage: null, 
+                entityId: 176
+              }
+            },
+            {
+              node: {
+                defaultImage: null,
+                entityId: 178
+              }
+            }
+          ]
         }
       }
     },
@@ -549,6 +1721,70 @@ export async function getStaticProps() {
             value: 220,
             currencyCode: 'MXN'
           }
+        },
+        variants: {
+          edges: [
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/18_source_1611759827.png"
+                },
+                entityId: 102
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/26_source_1611759827.png"
+                },
+                entityId: 110
+              }
+            },
+            {
+              node: {
+                defaultImage:{
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/30_source_1611759827.png"
+                },
+                entityId: 114
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/34_source_1611759827.png"
+                },
+                entityId: 119
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/38_source_1611759827.png"
+                },
+                entityId: 122
+              }
+            },
+            {
+              node: {
+                defaultImage: {
+                  altText: "",
+                  isDefault: true,
+                  urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/attribute_rule_images/40_source_1611759827.png"
+                },
+                entityId: 125
+              }
+            }
+          ]
         }
       }
     },

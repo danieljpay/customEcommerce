@@ -6,6 +6,7 @@ import Searchbar from '../Searchbar'
 import UserNav from '../UserNav'
 import cn from 'classnames'
 import throttle from 'lodash.throttle'
+import { Logo } from '../../ui'
 
 const Navbar: FC = () => {
   const [hasScrolled, setHasScrolled] = useState(false)
@@ -31,7 +32,7 @@ const Navbar: FC = () => {
           <div className="flex items-center flex-1">
             <Link href="/">
               <a className={s.logo} aria-label="Logo">
-                {/* <Logo /> */}
+                <Logo />
               </a>
             </Link>
             <nav className="hidden ml-6 space-x-4 lg:block">

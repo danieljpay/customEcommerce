@@ -3,14 +3,14 @@ import Link from 'next/link'
 import Image from 'next/image'
 import type { FC } from 'react'
 import s from './ProductCard.module.css'
-// import WishlistButton from '@components/wishlist/WishlistButton'
+import WishlistButton from '../../wishlist/WishlistButton'
 
 import usePrice from '../../../framework/bigcommerce/use-price'
-// import type { ProductNode } from '@framework/api/operations/get-all-products'
+import type { ProductNode } from '../../../framework/bigcommerce/api/operations/get-all-products'
 
 interface Props {
   className?: string
-  product: any
+  product: ProductNode
   variant?: 'slim' | 'simple'
   imgWidth: number | string
   imgHeight: number | string
@@ -72,11 +72,11 @@ const ProductCard: FC<Props> = ({
                 </h3>
                 <span className={s.productPrice}>{price}</span>
               </div>
-              {/* <WishlistButton
+              <WishlistButton
                 className={s.wishlistButton}
                 productId={p.entityId}
                 variant={p.variants.edges?.[0]!}
-              /> */}
+              />
               <button value='Agregar a wishlist'></button>
             </div>
             <div className={s.imageContainer}>
