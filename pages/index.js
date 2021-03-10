@@ -8,12 +8,34 @@ import { ProductCard } from '../components/product/'
 export async function getStaticProps() {
   const bestSelling = [
     {
+      cursor: "YXJyYXljb25uZWN0aW9uOjA=",
       node: {
+        brand: {
+          entityId: 37
+        },
+        description: "Agregue un poco de chispa a su guardarropa de invierno con esta chaqueta rompevientos vibrante. Con un forro polar cepillado en el interior y un ajuste unisex relajado, esta chaqueta es solo el material de los sueños, ¡así que date prisa en conseguir una!",
+        entityId: 112,
         images: {
           edges: [
             {
               node: {
+                altText: "",
+                isDefault: false,
                 urlOriginal: 'https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/395/Men-Jacket-Front-Black__15466__46409.1611759826.png'
+              }
+            },
+            {
+              node: {
+                altText: "",
+                isDefault: false,
+                urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/380/Men-Jacket-Side-Black__68202__13598.1611759826.png"
+              }
+            },
+            {
+              node: {
+                altText: "",
+                isDefault: false,
+                urlOriginal: "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/411/Men-Jacket-Back-Black__33864__95292.1611759827.png"
               }
             }
           ]
@@ -24,7 +46,62 @@ export async function getStaticProps() {
           price: {
             currencyCode: 'MXN',
             value: 450
-          }
+          },
+          retailPrice: null,
+          salePrice: null
+        },
+        productOptions: {
+          edges: [
+            {
+              node: {
+                displayName: "Color",
+                entityId: 133,
+                values: {
+                  edges: [
+                    {
+                      node: {
+                        hexColors: ["#000000"],
+                        isDefault: false,
+                        label: "Black"
+                      }
+                    },
+                    {
+                      node: {
+                        hexColors: ["#FFFFFF"],
+                        isDefault: false,
+                        label: "White"
+                      }
+                    }
+                  ]
+                },
+                __typename: "MultipleChoiceOption"
+              }
+            },
+            {
+              displayName: "Size",
+              entityId: 134,
+              values: {
+                edges: [
+                  {
+                    node: {
+                      label: "S"
+                    }
+                  },
+                  {
+                    node: {
+                      label: "M"
+                    }
+                  },
+                  {
+                    node: {
+                      label: "L"
+                    }
+                  }
+                ]
+              },
+              __typename: "MultipleChoiceOption"
+            }
+          ]
         },
         //las variantes son necesarias para que el componente wishlist funcione correctamente
         variants: {
@@ -1789,6 +1866,7 @@ export async function getStaticProps() {
       }
     },
   ]
+
   return {
     props: {
       featured,
