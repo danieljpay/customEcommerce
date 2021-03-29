@@ -1,70 +1,78 @@
-import type {
-  GetStaticPathsContext,
-  GetStaticPropsContext,
-  InferGetStaticPropsType,
-} from 'next'
+// import type {
+//   GetStaticPathsContext,
+//   GetStaticPropsContext,
+//   InferGetStaticPropsType,
+// } from 'next'
 import { useRouter } from 'next/router'
 import { Layout } from '../../components/common'
 import { ProductView } from '../../components/product'
+import { products } from '../../products.json'
 
-// Data
+const { bestSelling } = products
 
-import { getConfig } from '../../framework/bigcommerce/api'
-import getProduct from '../../framework/bigcommerce/api/operations/get-product'
-import getAllPages from '../../framework/bigcommerce/api/operations/get-all-pages'
-import getAllProductPaths from '../../framework/bigcommerce/api/operations/get-all-product-paths'
+// // Data
 
-export async function getStaticProps({
-  params,
-  locale,
-  preview,
-}: GetStaticPropsContext<{ slug: string }>) {
-  const config = getConfig({ locale })
+// import { getConfig } from '../../framework/bigcommerce/api'
+// import getProduct from '../../framework/bigcommerce/api/operations/get-product'
+// import getAllPages from '../../framework/bigcommerce/api/operations/get-all-pages'
+// import getAllProductPaths from '../../framework/bigcommerce/api/operations/get-all-product-paths'
 
-  const { pages } = await getAllPages({ config, preview })
-  const { product } = await getProduct({
-    variables: { slug: params!.slug },
-    config,
-    preview,
-  })
+// export async function getStaticProps({
+//   params,
+//   locale,
+//   preview,
+// }: GetStaticPropsContext<{ slug: string }>) {
+//   const config = getConfig({ locale })
 
-  if (!product) {
-    throw new Error(`Product with slug '${params!.slug}' not found`)
-  }
+//   const { pages } = await getAllPages({ config, preview })
+//   const { product } = await getProduct({
+//     variables: { slug: params!.slug },
+//     config,
+//     preview,
+//   })
 
-  return {
-    props: { pages, product },
-    revalidate: 200,
-  }
-}
+//   if (!product) {
+//     throw new Error(`Product with slug '${params!.slug}' not found`)
+//   }
 
-export async function getStaticPaths({ locales }: GetStaticPathsContext) {
-  const { products } = await getAllProductPaths() //aqui se deben harcodear los productos
+//   return {
+//     props: { pages, product },
+//     revalidate: 200,
+//   }
+// }
 
-  return {
-    paths: locales
-      ? locales.reduce<string[]>((arr, locale) => {
-          // Add a product path for every locale
-          products.forEach((product) => {
-            arr.push(`/${locale}/product${product.node.path}`)
-          })
-          return arr
-        }, [])
-      : products.map((product) => `/product${product.node.path}`),
-    fallback: 'blocking',
-  }
-}
+// export async function getStaticPaths({ locales }: GetStaticPathsContext) {
+//   const { products } = await getAllProductPaths() //aqui se deben harcodear los productos
 
-export default function Slug({
-  product,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+//   return {
+//     paths: locales
+//       ? locales.reduce<string[]>((arr, locale) => {
+//           // Add a product path for every locale
+//           products.forEach((product) => {
+//             arr.push(`/${locale}/product${product.node.path}`)
+//           })
+//           return arr
+//         }, [])
+//       : products.map((product) => `/product${product.node.path}`),
+//     fallback: 'blocking',
+//   }
+// }
+
+export default function Slug() {
   const router = useRouter()
+  console.log('Este es el slug mandado:')
+  console.log(router.query.slug)
+
+  //aqui va un for para comprobar el product.path y que agarre los datos del producto que se clickeo
+
+  let product = bestSelling[0]  //hardcodeando el primer elemento de los productos
 
   return router.isFallback ? (
     <h1>Loading...</h1> // TODO (BC) Add Skeleton Views
   ) : (
     <ProductView product={product} />
   )
+  
 }
 
 Slug.Layout = Layout

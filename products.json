@@ -27,24 +27,32 @@
                 }
               },
               {
-                "altText": "",
-                "isDefault": false,
-                "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/411/Men-Jacket-Back-Black__33864__95292.1611759827.png"
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/411/Men-Jacket-Back-Black__33864__95292.1611759827.png"
+                }
               },
               {
-                "altText": "",
-                "isDefault": false,
-                "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/428/Men-Jacket-Front-White__95300__25233.1611759828.png"
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/428/Men-Jacket-Front-White__95300__25233.1611759828.png"
+                }
               },
               {
-                "altText": "",
-                "isDefault": false,
-                "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/387/Men-Jacket-Side-White__91924__19940.1611759826.png"
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/387/Men-Jacket-Side-White__91924__19940.1611759826.png"
+                }
               },
               {
-                "altText": "",
-                "isDefault": false,
-                "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/414/Men-Jacket-Back-White__02866__41821.1611759827.png"
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/414/Men-Jacket-Back-White__02866__41821.1611759827.png"
+                }
               }
             ]
           },

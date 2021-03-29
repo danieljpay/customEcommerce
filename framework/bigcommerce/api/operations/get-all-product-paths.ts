@@ -32,11 +32,6 @@ export type GetAllProductPathsResult<
   T extends { products: any[] } = { products: ProductPaths }
 > = T
 
-async function getAllProductPaths(opts?: {
-  variables?: GetAllProductPathsQueryVariables
-  config?: BigcommerceConfig
-}): Promise<GetAllProductPathsResult>
-
 async function getAllProductPaths<
   T extends { products: any[] },
   V = any
@@ -46,25 +41,13 @@ async function getAllProductPaths<
   config?: BigcommerceConfig
 }): Promise<GetAllProductPathsResult<T>>
 
-async function getAllProductPaths({
-  query = getAllProductPathsQuery,
-  variables,
-  config,
-}: {
-  query?: string
-  variables?: GetAllProductPathsQueryVariables
-  config?: BigcommerceConfig
-} = {}): Promise<GetAllProductPathsResult> {
-  config = getConfig(config)
-  // RecursivePartial forces the method to check for every prop in the data, which is
-  // required in case there's a custom `query`
-  const { data } = await config.fetch<
-    RecursivePartial<GetAllProductPathsQuery>
-  >(query, { variables })
-  const products = data.site?.products?.edges
-
+async function getAllProductPaths(){
   return {
-    products: filterEdges(products as RecursiveRequired<typeof products>),
+    paths: [
+      'product/',
+      { params: { slug: 'matte-black-magic-mug/'} }
+    ],
+    fallback: true,
   }
 }
 

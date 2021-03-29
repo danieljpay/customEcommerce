@@ -21,10 +21,12 @@ import WishlistButton from '../../wishlist/WishlistButton'
 interface Props {
   className?: string
   children?: any
-  product: ProductNode
+  product: any
 }
 
-const ProductView: FC<Props> = ({ product }) => {
+const ProductView: FC<Props> = ({product}) => {
+  // console.log('esto recibe ProductView')
+  // console.log(product)
   const addItem = useAddItem()
   const { price } = usePrice({
     amount: product.prices?.price?.value,
@@ -55,6 +57,9 @@ const ProductView: FC<Props> = ({ product }) => {
     }
   }
 
+  console.log('Esto es product.node.images')
+  console.log(product.node.images)
+  product = product.node
   return (
     <Container className="max-w-none w-full" clean>
       <NextSeo
