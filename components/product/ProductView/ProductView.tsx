@@ -41,7 +41,7 @@ const ProductView: FC<Props> = ({product}) => {
     color: null,
   })
   const variant =
-    getCurrentVariant(product, choices) || product.variants.edges?.[0]
+    getCurrentVariant(product, choices) || product.node.variants.edges?.[0]
 
   const addToCart = async () => {
     setLoading(true)
@@ -57,8 +57,6 @@ const ProductView: FC<Props> = ({product}) => {
     }
   }
 
-  console.log('Esto es product.node.images')
-  console.log(product.node.images)
   product = product.node
   return (
     <Container className="max-w-none w-full" clean>

@@ -60,8 +60,9 @@ const { bestSelling } = products
 
 export default function Slug() {
   const router = useRouter()
-  console.log('Este es el slug mandado:')
-  console.log(router.query.slug)
+  //**************para visualizar el slug *********/
+  // console.log('Este es el slug mandado:')
+  // console.log(router.query.slug)
 
   //aqui va un for para comprobar el product.path y que agarre los datos del producto que se clickeo
 

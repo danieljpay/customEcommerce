@@ -94,28 +94,30 @@
                 }
               },
               {
-                "displayName": "Size",
-                "entityId": 134,
-                "values": {
-                  "edges": [
-                    {
-                      "node": {
-                        "label": "S"
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 134,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
                       }
-                    },
-                    {
-                      "node": {
-                        "label": "M"
-                      }
-                    },
-                    {
-                      "node": {
-                        "label": "L"
-                      }
-                    }
-                  ]
-                },
-                "__typename": "MultipleChoiceOption"
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
               }
             ]
           },
