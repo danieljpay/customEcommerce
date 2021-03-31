@@ -44,7 +44,7 @@ export function getCurrentVariant(product, opts: SelectedOptions) {
         }
       })
     )
-
+    
   })
 
   return variant
