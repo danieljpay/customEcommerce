@@ -25,13 +25,11 @@ interface Props {
 }
 
 const ProductView: FC<Props> = ({product}) => {
-  // console.log('esto recibe ProductView')
-  // console.log(product)
   const addItem = useAddItem()
   const { price } = usePrice({
-    amount: product.prices?.price?.value,
-    baseAmount: product.prices?.retailPrice?.value,
-    currencyCode: product.prices?.price?.currencyCode!,
+    amount: product.node.prices?.price?.value,
+    baseAmount: product.node.prices?.retailPrice?.value,
+    currencyCode: product.node.prices?.price?.currencyCode!,
   })
   const { openSidebar } = useUI()
   const options = getProductOptions(product)
