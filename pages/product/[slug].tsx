@@ -65,8 +65,19 @@ export default function Slug() {
   // console.log(router.query.slug)
 
   //aqui va un for para comprobar el product.path y que agarre los datos del producto que se clickeo
+  let product
+  products.bestSelling.forEach(element => {
+    let pathSize = element.node.path.length
+    let pathProduct = element.node.path.slice(1, pathSize-1)
+    console.log('Este es el pathProduct')
+    console.log(pathProduct)
+    if(pathProduct === router.query.slug ) {
+      console.log('este es el producto que entró a la condición')
+      product = element
+    }
+  });
 
-  let product = bestSelling[0]  //hardcodeando el primer elemento de los productos
+  // let product = bestSelling[0]  //hardcodeando el primer elemento de los productos
 
   return router.isFallback ? (
     <h1>Loading...</h1> // TODO (BC) Add Skeleton Views
