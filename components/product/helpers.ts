@@ -31,8 +31,9 @@ export function getProductOptions(product) {
 // Finds a variant in the product that matches the selected options
 export function getCurrentVariant(product, opts: SelectedOptions) {
   const variant = product.node.variants.edges?.find((edge) => {
-    const { node } = edge ?? {}
-    return Object.entries(opts).every(([key, value]) => product.node?.productOptions.edges?.find((edge) => {
+    
+    return Object.entries(opts).every(([key, value]) =>
+      product.node?.productOptions.edges?.find((edge) => {
         if (
           edge?.node.__typename === 'MultipleChoiceOption' &&
           edge.node.displayName.toLowerCase() === key
@@ -43,6 +44,7 @@ export function getCurrentVariant(product, opts: SelectedOptions) {
         }
       })
     )
+
   })
 
   return variant
