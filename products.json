@@ -638,12 +638,25 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjY=",
         "node": {
+          "brand": null,
+          "description": "<p>Esta sudadera con capucha de American Apparel est&aacute; confeccionada con felpa California que, al contrario que el tejido sint&eacute;tico est&aacute;ndar, se elabora con 100% algod&oacute;n peinado e hilado en anillo ultrasuave. Ha sido prelavada para minimizar el posible encogimiento y es transpirable aunque no pierde ni un &aacute;pice de su calidez al ser muy gruesa.</p>↵<p>&bull; 100% algod&oacute;n, felpa California<br />&bull; Capucha con cordones a juego de poli&eacute;ster<br />&bull; Mangas ragl&aacute;n <br />&bull; Bolsillo tipo canguro<br />&bull; Hecha en EE.UU, en condiciones justas</p>",
+          "entityId": 126,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": false,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/126/422/mockup-8ee910d1__57199__59375.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": true,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/126/429/mockup-408c7cb0__30956__95291.1611759828.png"
                 }
               }
             ]
@@ -654,7 +667,72 @@
             "price": {
               "currencyCode": "MXN",
               "value": 260
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 135,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "XS"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "XL"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "2XL"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 136,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#030303"],
+                          "isDefault": false,
+                          "label": "Black"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
