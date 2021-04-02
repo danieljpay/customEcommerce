@@ -164,11 +164,17 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjM=",
         "node": {
+          "brand": null,
+          "description": "<p>Esta camiseta es todo lo que has so&ntilde;ado y m&aacute;s. Es suave y ligera, con la cantidad correcta de elasticidad. Adem&aacute;s, es c&oacute;moda y realza la figura de todo el que la lleva puesta, hombre o mujer.</p>↵<p>&bull; 100% algod&oacute;n peinado e hilado en anillo (los colores Heather contiene poli&eacute;ster)<br />&bull; El color Ash es 99% algod&oacute;n peinado e hilado en anillos, 1% poli&eacute;ster<br />&bull; Gramaje del tejido: 142 g/m&sup2; (4,2 oz/yd&sup2;)<br />&bull; Tela preencogida<br />&bull; Tapacosturas reforzado en hombros y cuello<br />&bull; Costuras laterales</p>",
+          "entityId": 130,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/130/437/15_T-Shirt_Mockup_1__98355.1603747312.1280.1280__55650.1611759828.png"
                 }
               }
@@ -180,7 +186,72 @@
             "price": {
               "currencyCode": "MXN",
               "value": 130
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 141,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "XS"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "XL"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "2XL"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 142,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#070606"],
+                          "isDefault": false,
+                          "label": "Black"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
