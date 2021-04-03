@@ -777,12 +777,53 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjc=",
         "node": {
+          "brand": null,
+          "description": "<p>Ya ni nos acordamos del tiempo que las camisetas llevan entre nosotros, pero siempre encontramos formas novedosas de usarlas. Este vestido camiseta de algod&oacute;n org&aacute;nico es uno de los productos premium imprescindibles: es c&oacute;modo, elegante y ecol&oacute;gico. Acomp&aacute;&ntilde;alo de unos leggins, un cintur&oacute;n, una chaqueta vaquera o ll&eacute;valo solo. De cualquiera de las maneras, estar&aacute;s siempre divina.<br />&bull; Algod&oacute;n hilado en anillos 100% ecol&oacute;gico<br />&bull; Peso del tejido: 180 g/m&sup2; (5.3 oz/yd&sup2;)<br />&bull; Ajuste medio<br />&bull; Mangas pegadas<br />&bull; Canal 1&times;1 en el cuello<br />&bull; Pespuntes de doble aguja anchos en las mangas y en los dobladillos inferior<br />&bull; Tapeta de cuello en el mismo tejido (en el interior, parte trasera del cuello)<br />&bull; Producto base fabricado en Banglad&eacute;s o China</p>",
+          "entityId": 125,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/125/420/mockup-6de419a0__16020__13044.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/125/425/mockup-09183ded__81562__87001.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/125/427/mockup-864a7a03__92454__04982.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/125/430/mockup-fb1f2abf__85919__23613.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/125/431/mockup-427f0a13__96679__15762.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/125/432/mockup-2f96584d__97365__60363.1611759828.png"
                 }
               }
             ]
@@ -793,7 +834,71 @@
             "price": {
               "currencyCode": "MXN",
               "value": 130
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 137,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#FFF3F3"],
+                          "isDefault": false,
+                          "label": "White"
+                        }
+                      },
+                      {
+                        "node": {
+                          "hexColors": ["#D8D8D8"],
+                          "isDefault": false,
+                          "label": "Heather Grey"
+                        }
+                      },
+                      {
+                        "node": {
+                          "hexColors": ["#FDAAB3"],
+                          "isDefault": false,
+                          "label": "Canyon Pink"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 138,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
