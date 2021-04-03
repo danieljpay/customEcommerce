@@ -1736,12 +1736,67 @@
         }
       }, 
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjA=",
         "node": {
+          "brand": null,
+          "description": "Un clásico snapback con una espalda de malla de poliéster.↵↵ • 100% frente / 100% malla de poliéster en la espalda↵ • 5 paneles↵ • Panel frontal cosido con bucarán completo↵ • Puntada profesional en la corona↵ • 4 ojales bordados↵ • 8 filas de costuras en la visera plana↵ • Visera gris↵ • Cierre de plástico a presión",
+          "entityId": 133,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/447/Hat-front-black__34181__31769.1611759829.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/454/Hat-left-black__86563__80389.1611759830.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/457/Hat-back-black__73249__17604.1611759830.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/459/Hat-right-black__47486__60900.1611759830.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/449/Hat-front-white__62014__17647.1611759829.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/452/Hat-left-white__24819__77104.1611759829.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/456/Hat-back-white__89051__71295.1611759830.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/458/Hat-right-white__01475__86047.1611759830.png"
                 }
               }
             ]
@@ -1752,7 +1807,12 @@
             "price": {
               "currencyCode": "MXN",
               "value": 60
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": []
           },
           "variants": {
             "edges": [
@@ -1767,12 +1827,67 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjE=",
         "node": {
+          "brand": null,
+          "description": "Un clásico snapback con una espalda de malla de poliéster.↵↵ • 100% frente / 100% malla de poliéster en la espalda↵ • 5 paneles↵ • Panel frontal cosido con bucarán completo↵ • Puntada profesional en la corona↵ • 4 ojales bordados↵ • 8 filas de costuras en la visera plana↵ • Visera gris↵ • Cierre de plástico a presión",
+          "entityId": 133,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/447/Hat-front-black__34181__31769.1611759829.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/454/Hat-left-black__86563__80389.1611759830.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/457/Hat-back-black__73249__17604.1611759830.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/459/Hat-right-black__47486__60900.1611759830.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/449/Hat-front-white__62014__17647.1611759829.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/452/Hat-left-white__24819__77104.1611759829.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/456/Hat-back-white__89051__71295.1611759830.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/133/458/Hat-right-white__01475__86047.1611759830.png"
                 }
               }
             ]
@@ -1783,7 +1898,12 @@
             "price": {
               "currencyCode": "MXN",
               "value": 60
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": []
           },
           "variants": {
             "edges": [
