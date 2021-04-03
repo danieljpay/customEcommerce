@@ -66,7 +66,7 @@ export default function Slug() {
 
   //aqui va un for para comprobar el product.path y que agarre los datos del producto que se clickeo
   let product
-  products.bestSelling.forEach(element => {
+  products.featured.forEach(element => {
     let pathSize = element.node.path.length
     let pathProduct = element.node.path.slice(1, pathSize-1)
     console.log('Este es el pathProduct')

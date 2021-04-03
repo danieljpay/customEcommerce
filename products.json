@@ -1015,12 +1015,55 @@
     
     "featured": [
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjA=",
         "node": {
+          "brand": {
+            "entityId": 37
+          },
+          "description": "Agregue un poco de chispa a su guardarropa de invierno con esta chaqueta rompevientos vibrante. Con un forro polar cepillado en el interior y un ajuste unisex relajado, esta chaqueta es solo el material de los sueños, ¡así que date prisa en conseguir una!",
+          "entityId": 112,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/395/Men-Jacket-Front-Black__15466__46409.1611759826.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/380/Men-Jacket-Side-Black__68202__13598.1611759826.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/411/Men-Jacket-Back-Black__33864__95292.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/428/Men-Jacket-Front-White__95300__25233.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/387/Men-Jacket-Side-White__91924__19940.1611759826.png"
+                }
+              }, 
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/112/414/Men-Jacket-Back-White__02866__41821.1611759827.png"
                 }
               }
             ]
@@ -1031,7 +1074,64 @@
             "price": {
               "currencyCode": "MXN",
               "value": 220
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 133,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#000000"],
+                          "isDefault": false,
+                          "label": "Black"
+                        }
+                      },
+                      {
+                        "node": {
+                          "hexColors": ["#FFFFFF"],
+                          "isDefault": false,
+                          "label": "White"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 134,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
@@ -1076,12 +1176,55 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjI=",
         "node": {
+          "brand": {
+            "entityId": 37
+          },
+          "description": "Esta camiseta es imprescindible en tu guardarropa, ya que combina el corte atemporal de una camiseta clásica con un intrincado detalle bordado que lleva la camiseta a un nivel completamente nuevo. Es suave y duradera, ¡así que prepárate para tener una nueva camiseta favorita!",
+          "entityId": 116,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/116/396/Men-TShirt-Black-Front__70046__04554.1611759826.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/116/386/Men-TShirt-Black-Left-Side__72119__04209.1611759826.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/116/406/Men-TShirt-Black-Back__57266__81955.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/116/390/Men-TShirt-White-Front__99616__23171.1611759826.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/116/384/Men-TShirt-White-Left-Side__69000__01161.1611759826.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/116/392/Men-TShirt-White-Back__33450__51204.1611759826.png"
                 }
               }
             ]
@@ -1092,7 +1235,79 @@
             "price": {
               "currencyCode": "MXN",
               "value": 130
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 119,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#FFFFFF"],
+                          "isDefault": false,
+                          "label": "Black"
+                        }
+                      },
+                      {
+                        "node": {
+                          "hexColors": ["#000000"],
+                          "isDefault": false,
+                          "label": "White"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 120,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "XS"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "XL"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "XXL"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
