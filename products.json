@@ -2525,12 +2525,39 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjQ=",
         "node": {
+          "brand": null,
+          "description": "<p>Dale a tu armario la prenda que te est&aacute; pidiendo: una camiseta de manga larga vers&aacute;til y c&oacute;moda. Comb&iacute;nala con tus vaqueros favoritos y una sudadera para un look casual, o con una camisa o pantalones de vestir para algo m&aacute;s formal.</p>↵<p>&bull; 100% algod&oacute;n hilado y peinado en anillos*<br />&bull; Los tonos Heather son 52% algod&oacute;n peinado e hilado en anillos, 48% poli&eacute;ster<br />&bull; El tono Athletic Heather es 90% algod&oacute;n peinado e hilado en anillos, 10% poli&eacute;ster<br />&bull; Hilo de 32 hebras<br />&bull; Ajuste c&oacute;modo<br />&bull; Cuello redondo<br />&bull; Pu&ntilde;os el&aacute;sticos de 2&rdquo; (5,08 cm)<br />&bull; Costuras laterales</p>",
+          "entityId": 129,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/129/435/mockup-5197eac5__60260__14012.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/129/438/mockup-f2a64b16__56741__05431.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/129/440/mockup-a23afd8f__23281__38011.1611759828.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/129/443/mockup-9e587c84__12847__87906.1611759829.png"
                 }
               }
             ]
@@ -2541,7 +2568,71 @@
             "price": {
               "value": 180,
               "currencyCode": "MXN"
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 145,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#000000"],
+                          "isDefault": false,
+                          "label": "Black"
+                        }
+                      },
+                      {
+                        "node": {
+                          "hexColors": ["#616161"],
+                          "isDefault": false,
+                          "label": "Dark Grey Heather"
+                        }
+                      },
+                      {
+                        "node": {
+                          "hexColors": ["#FF0000"],
+                          "isDefault": false,
+                          "label": "Red"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 146,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
