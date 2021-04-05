@@ -3224,12 +3224,32 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjg=",
         "node": {
+          "brand": null,
+          "description": "<p>Prep&aacute;rate para esa carrera que tienes en mente o, simplemente, rel&aacute;jate en el sof&aacute;. Hagas lo que hagas, una cosa est&aacute; garantizada: con este pantal&oacute;n de tipo jogger te sentir&aacute;s en tu salsa.</p>↵<p>&bull; 60% algod&oacute;n, 40% poli&eacute;ster preencojido<br />&bull; Peso del tejido: 7.2 oz/yd&sup2; (244 g/m&sup2;)<br />&bull; Ajustes en los tobillos 1x1 con licra para dar elasticidad<br />&bull; Banda flexible en la cadera con cord&oacute;n exterior<br />&bull; Contraste en el cord&oacute;n y los bolsillos laterales (todos los colores disponibles incluyen detalles en gris carb&oacute;n, excepto el gris oscuro, que incluye detalles en negro)<br />&bull; Parte trasera amplia<br />&bull; Resistente a la generaci&oacute;n de bolitas superficiales)<br />&bull; Pierna ancha en la parte superior, ligeramente m&aacute;s estrecha en la parte inferior</p>",
+          "entityId": 124,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/124/416/mockup-9fc4c1cf__88683__37613.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/124/419/mockup-b3bfb20a__27807__09049.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/124/423/mockup-1fce4854__16542__41363.1611759828.png"
                 }
               }
             ]
@@ -3240,7 +3260,67 @@
             "price": {
               "value": 220,
               "currencyCode": "MXN"
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 127,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "XL"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "2XL"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 129,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#E6E6E6"],
+                          "isDefault": false,
+                          "label": "Gray"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
