@@ -3509,12 +3509,39 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjEw",
         "node": {
+          "brand": null,
+          "description": "<p>Has encontrado tus pr&oacute;ximos pantalones favoritos&hellip; estos pantalones de ch&aacute;ndal ajustados unisex son transpirables y c&oacute;modos, &iexcl;ideales para practicar deporte o estar c&oacute;modo!</p>↵<p>&bull; 65% poli&eacute;ster, 35% algod&oacute;n<br />&bull; Peso del tejido: 250 g/m&sup2; (10.5 oz/y&sup2;)<br />&bull; Cintura el&aacute;stica con cord&oacute;n en el mismo color<br />&bull; Herretes met&aacute;licos <br />&bull; Doble capa en los tobillos y pu&ntilde;os<br />&bull; Bolsillos laterales con capa doble<br />&bull; Bolsillo trasero <br />&bull; Ajuste entallado (es recomendable para el modelo de mujer pedir una talla menos)</p>",
+          "entityId": 122,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": false,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/122/415/mockup-9c5e3634__60853__54408.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/122/417/mockup-298fdaa3__84338__18478.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": true,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/122/421/mockup-ce086e5f__52042__77722.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/122/424/mockup-dbf9eb7b__11067__23374.1611759828.png"
                 }
               }
             ]
@@ -3525,7 +3552,69 @@
             "price": {
               "value": 220,
               "currencyCode": "MXN"
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 128,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#0A0A0A"],
+                          "isDefault": false,
+                          "label": "Black"
+                        }
+                      },
+                      {
+                        "node": {
+                          "hexColors": ["#F8F8F8"],
+                          "isDefault": false,
+                          "label": "White"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 130,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "XL"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
