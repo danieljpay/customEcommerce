@@ -3687,12 +3687,32 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjEx",
         "node": {
+          "brand": null,
+          "description": "<p>Prenda esencial para tu fondo de armario. Est&aacute; fabricada con algod&oacute;n grueso, pero su tacto sigue siendo muy suave. El pespunte doble en el cuello y las mangas le a&ntilde;aden mayor durabilidad por lo que pronto se convertir&aacute; en una de tus prendas favoritas.</p>↵<p>&bull; 100% algod&oacute;n hilado en anillo<br />&bull; El color Sport Grey est&aacute; compuesto de 90% algod&oacute;n hilado en anillos y 10% poli&eacute;ster<br />&bull; Dark heather contiene 65% poli&eacute;ster y 35% algod&oacute;n<br />&bull; 153 g/m&sup2; (4,5 oz/yd&sup2;)<br />&bull; Preencogido<br />&bull; Tapacosturas reforzado en hombros y cuello<br />&bull; Ha pasado el proceso de girado de un cuarto para eliminar el pliegue central</p>",
+          "entityId": 121,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/121/400/mockup-a0dc2330__62146__63216.1611759826.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/121/404/mockup-35654aa0__38532__88878.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": true,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/121/407/mockup-00446dbe__38739__74766.1611759827.png"
                 }
               }
             ]
@@ -3703,7 +3723,64 @@
             "price": {
               "value": 220,
               "currencyCode": "MXN"
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 121,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#FFF000"],
+                          "isDefault": false,
+                          "label": "White"
+                        }
+                      },
+                      {
+                        "node": {
+                          "hexColors": ["#DAD3D3"],
+                          "isDefault": false,
+                          "label": "Sport Grey"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 122,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
