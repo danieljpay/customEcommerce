@@ -3359,12 +3359,25 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjk=",
         "node": {
+          "brand": null,
+          "description": "<p>&iexcl;Felicidades! Acabas de encontrar tus nuevos pantalones de ch&aacute;ndal favoritos. Hechos de un suave tejido, estos pantalones vienen con unos colores brillantes que los convertir&aacute;n en un imprescindible en tu armario.</p>↵<p>&bull; 70% poli&eacute;ster, 27% algod&oacute;n, 3% elastano<br />&bull; Peso del tejido: 8.85 oz/yd&sup2; (300 g/m&sup2;)<br />&bull; Ajuste entallado<br />&bull; Exterior de tacto suave<br />&bull; Interior de vell&oacute;n<br />&bull; Bolsillos pr&aacute;cticos<br />&bull; Cintura el&aacute;stica con cord&oacute;n blanco</p>",
+          "entityId": 123,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/123/418/mockup-d4159f04__53247__43252.1611759827.png"
+                }
+              },
+              {
+                "node": {
+                  "altText": "",
+                  "isDefault": false,
+                  "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/123/426/mockup-4fdd4e10__97706__73010.1611759828.png"
                 }
               }
             ]
@@ -3375,7 +3388,77 @@
             "price": {
               "value": 220,
               "currencyCode": "MXN"
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 131,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "XS"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "XL"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "2XL"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "3XL"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 132,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#FCF9F9"],
+                          "isDefault": false,
+                          "label": "White"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
