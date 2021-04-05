@@ -2272,11 +2272,17 @@
         }
       },
       {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjI=",
         "node": {
+          "brand": null,
+          "description": "<p>Prot&eacute;gete del fr&iacute;o con estilo con este elegante forro polar decorado por el brillante color del ribete. Hemos contra&iacute;do su tela para que dure lo m&aacute;ximo posible y pueda convertirse en una de tus prendas favoritas.</p>↵<p>&bull; 100% algod&oacute;n peinado con anillos<br />&bull; Peso del tejido: 7.5 oz/yd&sup2; (254.3 g/m&sup2;)<br />&bull; Bolsillos laterales estilo canguro<br />&bull; Decoraci&oacute;n con ribete de color<br />&bull; Pu&ntilde;os de 3&rdquo; y con banda ajustada<br />&bull; Manga ragl&aacute;n<br />&bull; Cuello estilo cadete</p>",
+          "entityId": 131,
           "images": {
             "edges": [
               {
                 "node": {
+                  "altText": "",
+                  "isDefault": true,
                   "urlOriginal": "https://cdn11.bigcommerce.com/s-kn0kdiekio/images/stencil/original/products/131/434/mockup-249c43c7__53383__22200.1611759828.png"
                 }
               }
@@ -2288,7 +2294,67 @@
             "price": {
               "value": 210,
               "currencyCode": "MXN"
-            }
+            },
+            "retailPrice": null,
+            "salePrice": null
+          },
+          "productOptions": {
+            "edges": [
+              {
+                "node": {
+                  "displayName": "Size",
+                  "entityId": 139,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "label": "S"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "M"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "L"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "XL"
+                        }
+                      },
+                      {
+                        "node": {
+                          "label": "2XL"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              },
+              {
+                "node": {
+                  "displayName": "Color",
+                  "entityId": 140,
+                  "values": {
+                    "edges": [
+                      {
+                        "node": {
+                          "hexColors": ["#080707"],
+                          "isDefault": false,
+                          "label": "Black"
+                        }
+                      }
+                    ]
+                  },
+                  "__typename": "MultipleChoiceOption"
+                }
+              }
+            ]
           },
           "variants": {
             "edges": [
