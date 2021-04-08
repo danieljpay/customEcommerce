@@ -60,24 +60,20 @@ const { bestSelling } = products
 
 export default function Slug() {
   const router = useRouter()
-  //**************para visualizar el slug *********/
-  // console.log('Este es el slug mandado:')
-  // console.log(router.query.slug)
 
-  //aqui va un for para comprobar el product.path y que agarre los datos del producto que se clickeo
   let product
-  products.newestProducts.forEach(element => {
-    let pathSize = element.node.path.length
-    let pathProduct = element.node.path.slice(1, pathSize-1)
-    console.log('Este es el pathProduct')
-    console.log(pathProduct)
-    if(pathProduct === router.query.slug ) {
-      console.log('este es el producto que entró a la condición')
-      product = element
+  for(let section in products) {
+    //la propiedad cursor es distintiva entre los productos:
+    if(products[section][0].hasOwnProperty('cursor')){ 
+      products[section].forEach(element => {
+        let pathSize = element.node.path.length
+        let pathProduct = element.node.path.slice(1, pathSize-1)
+        if(pathProduct === router.query.slug ) {
+          product = element
+        }
+      })
     }
-  });
-
-  // let product = bestSelling[0]  //hardcodeando el primer elemento de los productos
+  }
 
   return router.isFallback ? (
     <h1>Loading...</h1> // TODO (BC) Add Skeleton Views
