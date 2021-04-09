@@ -39,10 +39,10 @@ const ProductSlider: FC = ({ children }) => {
     sliderContainerRef.current!
       .addEventListener('touchstart', preventNavigation)
 
-    return () => {
-      sliderContainerRef.current!
-      .removeEventListener('touchstart', preventNavigation)
-    }
+    // return () => {
+    //   sliderContainerRef.current!
+    //   .removeEventListener('touchstart', preventNavigation)
+    // }
   }, [])
 
   return (
