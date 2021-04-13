@@ -1,7 +1,5 @@
-import Head from '../components/common/Head'
 import Layout from '../components/common/Layout'
 import HomeAllProductsGrid from '../components/common/HomeAllProductsGrid'
-import { ManagedUIContext } from '../components/ui/context'
 import { Grid, Marquee, Hero } from '../components/ui'
 import { ProductCard } from '../components/product/'
 import { products } from '../products.json'

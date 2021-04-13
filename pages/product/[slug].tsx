@@ -8,8 +8,6 @@ import { Layout } from '../../components/common'
 import { ProductView } from '../../components/product'
 import { products } from '../../products.json'
 
-const { bestSelling } = products
-
 // // Data
 
 // import { getConfig } from '../../framework/bigcommerce/api'

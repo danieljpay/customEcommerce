@@ -10,7 +10,6 @@ import { Button, Container, Text } from '../../ui'
 
 import usePrice from '../../../framework/bigcommerce/use-price'
 import useAddItem from '../../../framework/bigcommerce/cart/use-add-item'
-import type { ProductNode } from '../../../framework/bigcommerce/api/operations/get-product'
 import {
   getCurrentVariant,
   getProductOptions,
