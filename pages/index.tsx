@@ -7,7 +7,7 @@ import { ProductCard } from '../components/product/'
 import { products } from '../products.json'
 
 export async function getStaticProps() {
-  const { featured, bestSelling, categories, brands, newestProducts } = products
+  const { featured, bestSelling, categories, brands, newestProducts, pages } = products
 
   return {
     props: {
@@ -16,6 +16,7 @@ export async function getStaticProps() {
       categories,
       brands,
       newestProducts,
+      pages
     }
   }
 }
@@ -25,7 +26,7 @@ export default function Home({
   bestSelling,
   categories,
   brands,
-  newestProducts
+  newestProducts,
 }) {
   return ( 
     <div>
