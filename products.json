@@ -997,19 +997,96 @@
         }
       }
     ],
+
+    "brands": [
+      {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjA=",
+        "node": {
+          "defaultImage": null,
+          "entityId": 35,
+          "metaDesc": "",
+          "metaKeywords": [],
+          "name": "DanielBrand",
+          "pageTitle": "",
+          "path": "/brands/danielbrand/",
+          "searchKeywords": []
+        }
+      },
+      {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjE=",
+        "node": {
+          "defaultImage": null,
+          "entityId": 36,
+          "metaDesc": "",
+          "metaKeywords": [],
+          "name": "ÓscarBrand",
+          "path": "/brands/oscarbrand/",
+          "searchKeywords": []
+        }
+      },
+      {
+        "cursor": "YXJyYXljb25uZWN0aW9uOjI=",
+        "node": {
+          "defaultImage": null,
+          "entityId": 37,
+          "metaDesc": "",
+          "metaKeywords": [],
+          "name": "YamiBrand",
+          "pageTitle": "",
+          "path": "/brands/yamibrand/",
+          "searchKeywords": []
+        }
+      }
+    ],
     
     "categories": [
       {
-        "path": "/path",
-        "name": "Daniel" 
+        "children": [],
+        "description": "",
+        "entityId": 23,
+        "name": "Manuel", 
+        "path": "/manuel/",
+        "productCount": 22
       },
       {
-        "path": "/otroPath",
-        "name": "Billy"
+        "children": [],
+        "description": "",
+        "entityId": 18,
+        "name": "Blanca",
+        "path": "/blanca/",
+        "productCount": 0
       },
       {
-        "path": "/tercerPath",
-        "name": "Tommy"
+        "children": [],
+        "description": "",
+        "entityId": 19,
+        "name": "Reina",
+        "path": "/reina/",
+        "productCount": 0
+      },
+      {
+        "children": [],
+        "description": "",
+        "entityId": 21,
+        "name": "Pelusa",
+        "path": "/pelusa/",
+        "productCount": 0
+      },
+      {
+        "children": [],
+        "description": "",
+        "entityId": 20,
+        "name": "Torkoal",
+        "path": "/torkoal/",
+        "productCount": 0
+      },
+      {
+        "children": [],
+        "description": "",
+        "entityId": 22,
+        "name": "Manchas",
+        "path": "/manchas/",
+        "productCount": 0
       }
     ],
     
@@ -1915,27 +1992,6 @@
               }
             ]
           }
-        }
-      }
-    ],
-    
-    "brands": [
-      {
-        "node": {
-          "path": "/path",
-          "name": "DanielBrand"
-        }
-      },
-      {
-        "node": {
-          "path": "/otroPath",
-          "name": "BillyBrand"
-        }
-      },
-      {
-        "node": {
-          "path": "/tercerPath",
-          "name": "TommyBrand"
         }
       }
     ],
