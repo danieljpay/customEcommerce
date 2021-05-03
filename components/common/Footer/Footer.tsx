@@ -97,7 +97,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
         </div>
         <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4">
           <div>
-            <span>&copy; DP Inc. Todos los derechos reservados.</span>
+            <span>&copy; PAY Inc. Todos los derechos reservados.</span>
           </div>
           <div className="flex items-center text-primary">
             <span className="text-primary">Editado por Daniel Pérez</span>

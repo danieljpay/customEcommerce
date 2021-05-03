@@ -10,7 +10,7 @@ import type { ProductNode } from '../../../framework/bigcommerce/api/operations/
 
 interface Props {
   className?: string
-  product: ProductNode
+  product: any
   variant?: 'slim' | 'simple'
   imgWidth: number | string
   imgHeight: number | string
