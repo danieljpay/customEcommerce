@@ -12,11 +12,11 @@ import { Trash } from '../../icons'
 import s from './WishlistCard.module.css'
 
 interface Props {
-  item: WishlistItem
+  item: any
 }
 
 const WishlistCard: FC<Props> = ({ item }) => {
-  const product = item.product!
+  const product = item.node!
   const { price } = usePrice({
     amount: product.prices?.price?.value,
     baseAmount: product.prices?.retailPrice?.value,
